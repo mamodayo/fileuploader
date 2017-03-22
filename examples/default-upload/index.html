@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Default with custom name and upload example - Fileuploader</title>
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+		
+		<!-- styles -->
+		<link href="../../src/jquery.fileuploader.css" media="all" rel="stylesheet">
+		
+		<!-- js -->
+		<script src="http://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+		<script src="../../src/jquery.fileuploader.min.js" type="text/javascript"></script>
+		<script src="./js/custom.js" type="text/javascript"></script>
+
+		<style>
+			body {
+				font-family: 'Roboto', sans-serif;
+				font-size: 14px;
+                line-height: normal;
+				color: #47525d;
+				background-color: #fff;
+
+				margin: 0;
+				padding: 20px;
+				
+				width: 560px;
+			}
+			
+			label {
+				display: block;
+				font-weight: bold;
+			}
+			
+			input[type="text"],
+			input[type="email"] {
+				padding: 6px;
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+        <label>New file name:</label>
+        <input type="text" id="custom_file_name">
+
+        <input type="file" name="files">
+    </body>
+</html>
