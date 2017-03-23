@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
 	// enable fileuploader plugin
-	$('input[name="files-thumbs"]').fileuploader({
+	$('input[name="files"]').fileuploader({
         extensions: ['jpg', 'jpeg', 'png', 'gif', 'bmp'],
 		changeInput: ' ',
 		theme: 'thumbnails',
